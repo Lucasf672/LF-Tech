@@ -1,11 +1,209 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LF-Tech</title>
+    <meta name="description" content="LF-Tech - Soluções em tecnologia em Minas Novas - MG. Manutenção de computadores, notebooks e suporte técnico especializado.">
+    <title>LF-Tech | Soluções em Tecnologia</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <span>LF-Tech</span>
+                </a>
+                
+                <ul class="nav-menu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="reveal-up">LF-Tech</h1>
+                    <p class="reveal-up">Soluções em tecnologia</p>
+                    <a href="https://wa.me/5533999067606" target="_blank" class="btn btn-primary reveal-up">
+                        <i class="fab fa-whatsapp"></i> Falar no WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="sobre" class="about section-padding">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <h2>Sobre a Empresa</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text reveal-left">
+                        <p>A <strong>LF-Tech</strong> é uma empresa especializada em oferecer as melhores soluções tecnológicas para Minas Novas e região. Com foco em excelência e confiança, atuamos na manutenção de computadores e notebooks, suporte técnico especializado e instalação de softwares.</p>
+                        <p>Nosso compromisso é garantir que sua tecnologia funcione perfeitamente, permitindo que você foque no que realmente importa. Seja para uso pessoal ou empresarial, a LF-Tech é sua parceira ideal em serviços de informática.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="servicos" class="services section-padding">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <h2>Nossos Serviços</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card reveal-up">
+                        <div class="service-icon"><i class="fas fa-desktop"></i></div>
+                        <h3>Manutenção de Computadores</h3>
+                        <p>Reparo especializado em hardware e otimização de desempenho para desktops.</p>
+                    </div>
+                    <div class="service-card reveal-up">
+                        <div class="service-icon"><i class="fas fa-laptop"></i></div>
+                        <h3>Manutenção de Notebooks</h3>
+                        <p>Conserto de telas, teclados, baterias e upgrades para todas as marcas.</p>
+                    </div>
+                    <div class="service-card reveal-up">
+                        <div class="service-icon"><i class="fas fa-headset"></i></div>
+                        <h3>Suporte Remoto</h3>
+                        <p>Assistência técnica ágil sem você precisar sair de casa ou da empresa.</p>
+                    </div>
+                    <div class="service-card reveal-up">
+                        <div class="service-icon"><i class="fas fa-file-code"></i></div>
+                        <h3>Instalação de Softwares</h3>
+                        <p>Configuração de sistemas operacionais e programas essenciais.</p>
+                    </div>
+                    <div class="service-card reveal-up">
+                        <div class="service-icon"><i class="fas fa-database"></i></div>
+                        <h3>Formatação com Backup</h3>
+                        <p>Limpeza completa do sistema garantindo a segurança total dos seus arquivos.</p>
+                    </div>
+                    <div class="service-card reveal-up">
+                        <div class="service-icon"><i class="fas fa-tools"></i></div>
+                        <h3>Outros Serviços de TI</h3>
+                        <p>Soluções personalizadas para diversas necessidades tecnológicas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visual Section -->
+        <section class="visual-section">
+            <div class="visual-overlay"></div>
+            <div class="container">
+                <div class="visual-content reveal-up">
+                    <h2>Tecnologia com Confiança</h2>
+                    <p>Profissionalismo e especialização para garantir o melhor desempenho do seu equipamento.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contato" class="contact section-padding">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <h2>Contato</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="contact-info reveal-left">
+                        <div class="info-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h4>Telefone / WhatsApp</h4>
+                                <p>(33) 9 9906-7606</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="far fa-envelope"></i>
+                            <div>
+                                <h4>E-mail</h4>
+                                <p>lftech@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fab fa-instagram"></i>
+                            <div>
+                                <h4>Instagram</h4>
+                                <p><a href="https://instagram.com" target="_blank">@lftech_oficial</a></p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Endereço</h4>
+                                <p>Av. Israel Pinheiro, 73<br>Bairro Saudade<br>Minas Novas - MG<br>CEP: 39650-000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-map reveal-right">
+                        <!-- Google Maps Embed (Minas Novas, MG) -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4282.376897648822!2d-42.5845652!3d-17.220337499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xad59537e244e61%3A0x4718136a677f6876!2sLF%20Tech!5e1!3m2!1spt-BR!2sbr!4v1778094556412!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <span>LF Tech</span>
+                </div>
+                <div class="footer-copy">
+                    <p>&copy; 2026 LF-Tech. Todos os direitos reservados.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/5533999067606"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/5533999067606" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
 </body>
 </html>
